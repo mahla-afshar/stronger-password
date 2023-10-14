@@ -41,9 +41,10 @@ function PasswordStrengthMeter  ({password})  {
             default:
                 return "none";
         }
+        
        
     }
-    
+
 
     const changePasswordColor =() => ({
         width: `${num}%`,
