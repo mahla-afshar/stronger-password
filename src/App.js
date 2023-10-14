@@ -12,6 +12,7 @@ function App() {
           <input type='text' 
           className="form-control" 
           placeholder="پسورد شما" 
+          
           onChange={(e) => setPassword(e.target.value)}
           />
 
