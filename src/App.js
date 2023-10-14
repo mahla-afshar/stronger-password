@@ -15,6 +15,7 @@ function App() {
           onChange={(e) => setPassword(e.target.value)}
           />
 
+
         </div>
         <PasswordStrengthMeter  password={password} />
       </div>
